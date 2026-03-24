@@ -12,9 +12,14 @@
 * -> multiplicação
 / -> divisão
 
-## métodos em python
-1. print () -> Exibe informações no terminal ;
+## operadores lógicos
+and -> e -> se duas condições forem verdadeiras, o resultado é verdadeiro
+or -> e -> se pelo menos uma condição for verdadeira, o resultado é verdadeiro
+not -> ele altera o valor boonleano da condição
 
+## métodos em python
+1. print () -> Exibe informações no terminal.
+2. input ()  -> capturar uma informação no terminal.
 # Format em python
  
  # estrturas de repetição
