@@ -1,0 +1,28 @@
+idade =int(input("informe o valor da sua idade"))
+salario =float( input ("informe o seu salario  "))
+tempo_de_trabalho = int ( input ("informe o tempo de trabalho. "))
+
+if idade < 18:
+# NAO APROVAR AUTOMATICAMENTE MENOR DE IDADE
+    print("Emprestimo não aprovado, voce é menor de idade. ")
+else:
+    salario = float(input("informe o seu salário."))
+    if salario <= 5000:
+        print("emprestimo aprovado automaticamente.")
+    else:
+        tempo_de_trabalho = int(input("informe o tempo de trabalho"))
+        # Estrutura Empréstimo Bancário
+idade = int(input("Informe a idade: "))
+if idade < 18:
+    print("Empréstimo não aprovado, VOCÊ É MENOR DE IDADE")
+else:
+   salario = float(input("Informe o salário R$: "))
+if salario >= 5000:
+   print("Empréstimo aprovado automaticamente")
+else:
+   tempo_trabalho = int(input("Informe o seu tempo de trabalho em meses: "))
+if idade >= 18 and salario >= 2000 and tempo_trabalho >= 24:
+    print("Empréstimo aprovado")
+else:
+   print("Empréstimo não aprovado")
+        
