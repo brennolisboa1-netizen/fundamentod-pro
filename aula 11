@@ -25,4 +25,5 @@ if idade >= 18 and salario >= 2000 and tempo_trabalho >= 24:
     print("Empréstimo aprovado")
 else:
    print("Empréstimo não aprovado")
+   
         
