@@ -27,3 +27,15 @@ not -> ele altera o valor boonleano da condição
  elife (senão se) -> é usado para testar várias condições, Ele só executa se todas as afirmações anteriores forem falsas.
  else (senão) -> Executa o código se a condição if for false (falsa).
 
+ ## conversão em python
+ 1. int() -> A gente vai incluir qual variável/dado queremos converter para número inteiro.
+ 2. float () -> A gente vai incluir qual variável/dado queremos converter para número decimal.
+ 3. str () -> A gente vai incluir qual variável/dado queremos converter para número decimal.
+
+ ## Boas práticas
+
+ 1. Qualquer variável em python ultiliza o padrão de case snake_case ou recentemente o camelcase.
+ 2. se você observar alguma estrutura tipo nome(), 90% de chance de ser uma função.
+ 3. python não tem constante, porém usamos o padrão case
+ UPPERCASE 
+
